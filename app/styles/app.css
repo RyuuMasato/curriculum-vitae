@@ -1,0 +1,59 @@
+/*
+----------------------------------------------------
+Contents:
+----------------------------------------------------
+1.	Vertical layer 1
+2.	Horizontal layer 1 (page-wrapper contents)
+3.	Miscelanious layout
+4.	html/body reset
+----------------------------------------------------
+*/
+
+/* Vertical layer 1 */
+.page-header {
+	position: 	absolute;
+	top: 		0%;
+	width: 		100%;
+	height: 	5%;
+}
+.page-footer {
+	position: 	absolute;
+	bottom:		0%;
+	width: 		100%;
+	height: 	5%;
+}
+.page-wrapper {
+	position: 	absolute;
+	top: 		5%;
+	width: 		100%;
+	height: 	90%;
+}
+
+/* Horizontal layer 1 (page-wrapper contents) */
+.navigation-menu {
+	float: 		left;
+	width: 		20%;
+	height: 	100%;
+}
+.content-wrapper {
+	float: 		left;
+	width: 		80%;
+	height: 	100%;
+}
+
+/* Miscelanious layout */
+.vertical-align {
+	position: 			relative;
+	top: 				50%;
+	-webkit-transform: 	translateY(-50%);
+	-ms-transform: 		translateY(-50%);
+	transform: 			translateY(-50%);
+}
+
+/* html/body reset */
+html body {
+	margin: 	0%;
+	padding: 	0%;
+	min-height: 100%;
+	min-width: 	800px;
+}
