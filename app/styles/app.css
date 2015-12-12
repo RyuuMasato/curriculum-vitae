@@ -22,6 +22,11 @@ Contents:
 	width: 		100%;
 	height: 	5%;
 }
+.page-footer-copyright {
+	text-align: 	center;
+	font-size: 		smaller;
+	font-weight: 	200;
+}
 .page-wrapper {
 	position: 	absolute;
 	top: 		5%;
@@ -31,14 +36,21 @@ Contents:
 
 /* Horizontal layer 1 (page-wrapper contents) */
 .navigation-menu {
-	float: 		left;
-	width: 		20%;
-	height: 	100%;
+	float: 			left;
+	width: 			20%;
+	height: 		100%;
+	margin-left: 	5%;
 }
+.navigation-menu-item {
+	width: 100%;
+	height: 25%;
+}
+
 .content-wrapper {
-	float: 		left;
-	width: 		80%;
-	height: 	100%;
+	float: 			left;
+	width: 			70%;
+	height: 		100%;
+	margin-right: 	5%;
 }
 
 /* Miscelanious layout */
@@ -48,6 +60,13 @@ Contents:
 	-webkit-transform: 	translateY(-50%);
 	-ms-transform: 		translateY(-50%);
 	transform: 			translateY(-50%);
+}
+.horizontal-align {
+	position: relative;
+	left: 50%;
+	-webkit-transform: 	translateX(-50%);
+	-ms-transform: 		translateX(-50%);
+	transform: 			translateX(-50%);
 }
 
 /* html/body reset */
