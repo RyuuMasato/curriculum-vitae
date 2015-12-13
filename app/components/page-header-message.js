@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-	tagName: ['div'],
+	tagName: 	['div'],
 	classNames:	['page-header-message', 'vertical-align']
 });
