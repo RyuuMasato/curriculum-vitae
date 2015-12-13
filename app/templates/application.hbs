@@ -1,6 +1,19 @@
 {{page-header}}
 {{#page-wrapper}}
-	{{navigation-menu}}
+	{{#navigation-menu}}
+		{{#link-to "application"}}
+			{{navigation-menu-item}}
+		{{/link-to}}
+		{{#link-to "personal"}}
+			{{navigation-menu-item}}
+		{{/link-to}}
+		{{#link-to "experience"}}
+			{{navigation-menu-item}}
+		{{/link-to}}
+		{{#link-to "contact"}}
+			{{navigation-menu-item}}
+		{{/link-to}}
+	{{/navigation-menu}}
 	{{#content-wrapper}}
 		{{outlet}}
 	{{/content-wrapper}}
