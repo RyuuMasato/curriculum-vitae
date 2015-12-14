@@ -1,18 +1,23 @@
 {{page-header}}
 {{#page-wrapper}}
 	{{#navigation-menu}}
-		{{#link-to "application"}}
-			{{navigation-menu-item}}
-		{{/link-to}}
-		{{#link-to "personal"}}
-			{{navigation-menu-item}}
-		{{/link-to}}
-		{{#link-to "experience"}}
-			{{navigation-menu-item}}
-		{{/link-to}}
-		{{#link-to "contact"}}
-			{{navigation-menu-item}}
-		{{/link-to}}
+		<ul>
+			<li>{{#link-to "application" class="navigation-menu-item"}}
+					{{navigation-menu-item route="Home"}}
+				{{/link-to}}
+				<div class="navigation-menu-item-spacing">&nbsp;</div></li>
+			<li>{{#link-to "personal" class="navigation-menu-item"}}
+					{{navigation-menu-item route="Jan Schraven"}}
+				{{/link-to}}
+					<div class="navigation-menu-item-spacing">&nbsp;</div></li>
+			<li>{{#link-to "experience" class="navigation-menu-item"}}
+					{{navigation-menu-item route="Projecten"}}
+				{{/link-to}}
+					<div class="navigation-menu-item-spacing">&nbsp;</div></li>
+			<li>{{#link-to "contact" class="navigation-menu-item"}}
+					{{navigation-menu-item route="Contact"}}
+				{{/link-to}}</li>
+		</ul>
 	{{/navigation-menu}}
 	{{#content-wrapper}}
 		{{outlet}}
