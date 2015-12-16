@@ -24,7 +24,7 @@ Contents:
 }
 .page-footer-copyright, .page-header-message {
 	text-align: 			center;
-	font-size: 				smaller;
+	font-size: 				1.5vmin;;
 	font-weight: 			200;
 }
 .page-wrapper {
@@ -46,8 +46,8 @@ Contents:
 	width: 					15vw;
     height: 				20.25vh;
 	border-top: 			1px solid rgba(230,230,230,1);
-    border-left: 			1px solid rgba(75,0,130,1);
-    border-bottom: 			1px solid rgba(75,0,130,1);
+    border-left: 			1px solid rgba(105,35,95,1);
+    border-bottom: 			1px solid rgba(105,35,95,1);
     border-top-left-radius: 10px;
 	text-align: 			center;
 }
@@ -62,27 +62,131 @@ Contents:
     float: 					left;
     width: 					75vw;
     height: 				90vh;
-    border-left: 			1px solid rgba(75,0,130,1);
-    border-top: 			1px solid rgba(75,0,130,1);
-    border-right: 			1px solid rgba(75,0,130,1);
+    border-left: 			1px solid rgba(105,35,95,1);
+    border-top: 			1px solid rgba(105,35,95,1);
+    border-right: 			1px solid rgba(105,35,95,1);
     border-bottom: 			1px solid rgba(200,200,200,1);
     border-bottom-right-radius: 10px;
-	box-shadow: 			2px 2px 5px rgba(75,0,130,1);
+	box-shadow: 			2px 2px 5px rgba(105,35,95,1);
+}
+.about-me-container {
+	overflow: scroll;
+	font-size: 2vmin;
+	width: 65vw;
+	max-height: 68vh;
+	padding: 5vh 5vw;
+	text-align: center;
+}
+
+.about-me-picture {
+	float: right;
+	width: 20vw;
+	height: auto;
+	padding: 0vh 0vw 0vh 2vw;
+}
+.content-half-container-right {
+	float: right;
+	font-size: 2vmin;
+	width: 16vw;
+	padding-right: 2vw;
+	text-align: center;
+}
+.content-half-container-left {
+	float: left;
+	font-size: 2vmin;
+	width: 40vw;
+	text-align: center;
+}
+.contact-info {
+	line-height: 120%;
+}
+.email-input {
+	font-size: 1.8vmin;
+	box-shadow: 		2px 2px 7px rgba(150,150,150,1);
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid rgba(105,35,95,1);
+	border-bottom: 1px solid rgba(200,200,200,1);
+	border-right: 1px solid rgba(200,200,200,1);
+	border-bottom-right-radius: 5px;
+	float: right;
+	width: 28.1vw;
+	height: 3vh;
+}
+.email-input-button {
+	box-shadow: 		2px 2px 7px rgba(150,150,150,1);
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid rgba(105,35,95,1);
+	border-bottom: 1px solid rgba(200,200,200,1);
+	border-right: 1px solid rgba(200,200,200,1);
+	border-bottom-right-radius: 5px;
+	position: relative;
+	top: 2vh;
+	left: 11.7vw;
+	width: 15vw;
+	height: 4vh;
+	color: rgba(105,35,95,1);
+	font-size: 2.25vmin;
+	font-weight: 400;
+}
+.email-input-button:hover {
+	outline: none;
+	color: rgba(120,120,120,1);
+	box-shadow: 		2px 2px 7px rgba(105,35,95,1);
+}
+.email-input-button:focus {
+	outline: none;
+	color: rgba(120,120,120,1);
+	box-shadow: 		2px 2px 7px rgba(105,35,95,1);
+}
+.email-input-tag {
+	font-size: 1.8vmin;
+	width: 11vw;
+	float: left;
+	color: rgba(105,35,95,1);
+}
+.email-input-message {
+	font-size: 1.8vmin;
+	box-shadow: 		2px 2px 7px rgba(150,150,150,1);
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid rgba(105,35,95,1);
+	border-bottom: 1px solid rgba(200,200,200,1);
+	border-right: 1px solid rgba(200,200,200,1);
+	border-bottom-right-radius: 5px;
+	float: right;
+	width: 27.98vw;
+	height: 22.4vh;
+	resize: none;
+}
+.email-input-message:focus {
+	outline: none;
+	box-shadow: 		2px 2px 7px rgba(105,35,95,1);
+}
+.email-input:focus {
+	outline: none;
+	box-shadow: 		2px 2px 7px rgba(105,35,95,1);
+}
+.email-item-spacing {
+	padding-top: 5vh;
 }
 
 /* Miscelanious layout */
+html {
+	overflow: none;
+	background: url('http://wallpapercave.com/wp/WShsIJl.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
 body {
 	color: 					rgba(120,120,120,1);
 	font-family: 			Arial, Helvetica, sans-serif;
 	font-weight: 			200;
-	background-image: 		url('http://wallpapercave.com/wp/WShsIJl.jpg');
-	background-repeat: 		no-repeat;
-	background-size: 		120% auto;
 }
 a {
 	display: 				block;
-	font-size: 				1.4em;
-	color: 					rgba(75,0,130,1);
+	color: 					rgba(120,120,120,1);
+	font-size: 				2.5vmin;
 	text-decoration: 		none;
 	border-top-left-radius: 10px;
 	box-shadow: 			-2px 2px 5px rgba(150,150,150,1);
@@ -93,14 +197,14 @@ ul {
 	padding: 0;
 }
 a:hover {
-	box-shadow: 			-2px 2px 5px rgba(75,0,130,1);
+	box-shadow: 			-2px 2px 5px rgba(105,35,95,1);
+	color: 					rgba(105,35,95,1);
 }
 .active {
-	box-shadow:  			-2px 2px 5px rgba(75,0,130,1);
+	box-shadow:  			-2px 2px 5px rgba(105,35,95,1);
+	color: 					rgba(105,35,95,1);
 }
-.active:hover {
-	box-shadow:  			-2px 2px 5px rgba(150,150,150,1);
-}
+
 .vertical-align {
 	position: 				relative;
 	top: 					50%;
@@ -108,6 +212,38 @@ a:hover {
 	-ms-transform: 			translateY(-50%);
 	transform: 				translateY(-50%);
 }
+.float-left {
+	float: left;
+}
+.title {
+	color: rgba(105,35,95,1);
+}
+.justified {
+	text-align: justify;
+}
+.small {
+	line-height: 10%; 
+}
+.small-font {
+	font-size: 1.5vmin;
+}
+
+img.page-logo {
+	width: 50vw;
+	height: auto;
+	margin: 0vw 13vw;
+	margin-top: -8vh;
+	opacity: 0.5;
+}
+img.page-logo-small {
+	width: 12vw;
+	height: auto;
+	position: absolute;
+	bottom: 1.5vh;
+	right: 35vw;
+	opacity: 0.5;
+}
+
 
 /* html/body reset */
 html body {
@@ -116,3 +252,27 @@ html body {
 	min-height: 			100%;
 	min-width: 				800px;
 }
+
+/* Scrollbar css */
+
+/*.frame::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.frame::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.frame::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    /*background-color: rgba(0, 0, 0, .5);*/
+/*}*/
+/*.frame::-webkit-scrollbar-track { 
+    background-color: #fff; 
+    border-radius: 8px; 
+} */
